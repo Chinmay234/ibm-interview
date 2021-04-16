@@ -1,0 +1,12 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <!-- <ng-template *ngIf="data?.length"> -->
+  <div *ngFor="let student of data">
+    <p>Name: {{student.StudentName}}</p>
+    <p>ID: {{student.StudentID}}</p>
+    <p>Department: {{student.DeptID}}</p>
+  </div>
+  <!-- </ng-template> -->
+</div>
+
+<input name="name" type="text" [(ngModel)]="name" />
